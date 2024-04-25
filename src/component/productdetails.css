@@ -1,0 +1,286 @@
+.box{
+    display:flex;
+        justify-content:space-around;
+        width:90%;
+        height:350px;
+        margin-top:50px;
+}
+.boximg{
+    height:300px;
+    width:400px;
+}
+.image{
+    height:100%;
+        width:30%;
+}
+.content{
+        display:flex;
+        flex-direction:column;
+        height:100%;
+        width:60%;
+}
+.boxname{
+        font-size:2rem;
+        font-weight:bold;
+}
+.boxprice{
+        font-size:1.5rem;
+        font-weight:bold;
+        color:red;
+}
+.boxspec{
+        font-size:1.1rem;
+        font-weight:bold;
+    
+}
+.button0{
+    margin-top:10px;
+}
+.boxadd{
+       background-color:red;
+        border-radius:5px;
+        font-size:1.2rem;
+        font-weight:bold;
+        padding:5px 5px;
+}
+.boxbuy{
+        background-color:green;
+        border-radius:5px;
+        font-size:1.2rem;
+        font-weight:bold;
+        letter-spacing:3px;
+        padding:5px 5px;
+        margin-left:30px;
+}
+.related{
+        font-weight:bold;
+        text-align:center;
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:60%;
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:60%;
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:60%;
+}
+@media screen and (max-width:1030px){
+    .boximg{
+       height:360px;
+       width:360px;
+    }
+    .content{
+        margin-top: 5%;
+        margin-left: 10%;
+        
+}
+.box{
+margin-top: 10px;
+margin-left: 5%;
+display: flex;
+justify-content: space-around;
+
+}
+.boxname{
+font-size:1.7rem;
+font-weight:bold;
+}
+.boxprice{
+font-size:1.6rem;
+font-weight:bold;
+color:red;
+}
+.boxspec{
+font-size:1.5rem;
+font-weight:bold;
+
+}
+.button{
+margin-top:100px;
+margin-bottom: 20px;
+}
+.boxadd{
+background-color:red;
+border-radius:3px;
+font-size:1.4rem;
+font-weight:bold;
+padding:9px 9px;
+letter-spacing: 2px;
+}
+.boxbuy{
+background-color:green;
+border-radius:3px;
+font-size:1.4rem;
+font-weight:bold;
+letter-spacing:4px;
+padding:9px 9px;
+margin-left:80px;
+}
+}
+
+@media screen and (max-width:800px){
+    .boximg{
+       height:280px;
+       width:280px;
+    }
+.box{
+margin-top: 10px;
+margin-left: 6%;
+display: flex;
+justify-content: space-around;
+}
+.boxname{
+font-size:1.4rem;
+font-weight:bold;
+}
+.boxprice{
+font-size:1.2rem;
+font-weight:bold;
+color:red;
+}
+.boxspec{
+font-size:1rem;
+font-weight:bold;
+
+}
+.content{
+    margin-left: 15%;
+}
+.button{
+margin-top:5px;
+margin-bottom: 20px;
+}
+.boxadd{
+background-color:red;
+border-radius:3px;
+font-size:1rem;
+font-weight:bold;
+padding:5px 5px;
+letter-spacing: 1px;
+}
+.boxbuy{
+background-color:green;
+border-radius:3px;
+font-size:1rem;
+font-weight:bold;
+letter-spacing:4px;
+padding:5px 5px;
+margin-left:30px;
+}
+.related{
+display: none;
+}
+}
+@media screen and (max-width:430px){
+    .boximg{
+       height:180px;
+       width:220px;
+    }
+    .content{
+        margin-left: 6%;
+    }
+.box{
+margin-top: 10px;
+margin-left: 20%;
+display: flex;
+flex-direction: column;
+}
+.boxname{
+font-size:1.1rem;
+font-weight:bold;
+}
+.boxprice{
+font-size:1.1rem;
+font-weight:bold;
+color:red;
+}
+.boxspec{
+font-size:0.7rem;
+font-weight:bold;
+
+}
+.button{
+margin-top:5px;
+
+}
+.boxadd{
+background-color:red;
+border-radius:3px;
+font-size:0.7rem;
+font-weight:bold;
+padding:3px 3px;
+letter-spacing: 1px;
+}
+.boxbuy{
+background-color:green;
+border-radius:3px;
+font-size:0.7rem;
+font-weight:bold;
+letter-spacing:3px;
+padding:3px 3px;
+margin-left:30px;
+}
+.related{
+display: none;
+}
+}
+@media screen and (max-width:330px){
+          .boximg{
+             height:160px;
+             width:180px;
+          }
+.box{
+    margin-top: 10px;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.boxname{
+    font-size:1rem;
+    font-weight:bold;
+}
+.boxprice{
+    font-size:1rem;
+    font-weight:bold;
+    color:red;
+}
+.boxspec{
+    font-size:0.7rem;
+    font-weight:bold;
+
+}
+.button{
+margin-top:5px;
+margin-bottom: 20px;
+}
+.boxadd{
+   background-color:red;
+    border-radius:2px;
+    font-size:0.6rem;
+    font-weight:bold;
+    padding:2px 2px;
+    letter-spacing: 1px;
+}
+.boxbuy{
+    background-color:green;
+    border-radius:2px;
+    font-size:0.6rem;
+    font-weight:bold;
+    letter-spacing:3px;
+    padding:2px 2px;
+    margin-left:20px;
+}
+.related{
+    display: none;
+}
+}

@@ -1,0 +1,158 @@
+.page1{
+    margin-left:35%;
+        margin-top:20px;
+}
+.text1{
+    color:red;
+        font-weight:bold;
+        letter-spacing:5px;
+        font-size:1.4rem;
+}
+.button2{
+    font-size:1.1rem;
+    letter-spacing:1px;
+    background-color:yellow;
+    font-weight:bold;
+    border-top-left-radius:10px;
+        border-bottom-right-radius:10px;
+        padding:5px 5px;
+        margin-left:120px;
+}
+.card1{
+        margin-left:300px;
+        margin-top:30px;
+        background-color:#b8b8b8;
+        padding:10px;
+        height:240px;
+        width:60%;
+}
+.img-fluid{
+    height:200px;
+    width:300px;
+    
+}
+.button1{
+        margin-left:300px;
+        background-color:yellow;
+        border-radius:5px;
+        font-size:1.2rem;
+        padding:8px;
+        letter-spacing:3px;
+}
+.price1{
+    font-size:1.6rem;
+        color:rgb(32, 48, 215);
+        font-weight:bold;
+}
+.card-title1{
+    font-size:1.4rem;
+}
+.card-body1{
+    padding-left:70px;
+    
+}
+@media screen and (max-width:1024px){
+      .card1{
+        margin-left: 200px;
+      }
+}
+@media screen and (max-width:800px){
+    .card1{
+        
+        height: 150px;
+        width: 90%;
+        margin-left:20px;
+        
+        
+    }
+    .row{
+        height:60px;
+        display: flex;
+        
+    }
+    .card-body1{
+        margin-top: 30px;
+        margin-left: -30px;
+    }
+    .card-title1{
+        font-size: 1.5rem;
+    }
+    .img-fluid{
+        height: 120px;
+        width: 120px;
+    }
+    .button1{
+        margin-left: 25px;
+        font-size: 0.8rem;
+        padding: 5px;
+        letter-spacing: 2px;
+
+    }
+}
+@media screen and (max-width:430px){
+    .card1{
+        
+        height: 80px;
+        width: 90%;
+        margin-left:20px;
+        
+        
+    }
+    .row{
+        height:60px;
+        display: flex;
+        
+    }
+    .card-body1{
+        margin-top: -40px;
+        margin-left: 20px;
+    }
+    .card-title1{
+        font-size: 0.8rem;
+    }
+    .img-fluid{
+        height: 60px;
+        width: 60px;
+    }
+    .button1{
+        margin-left: 20px;
+        font-size: 0.6rem;
+        padding: 3px;
+        letter-spacing: 1px;
+
+    }
+}
+@media screen and (max-width:330px){
+    .card1{
+        
+        height: 80px;
+        width: 90%;
+        margin-left:20px;
+        
+        
+    }
+    .row{
+        height:60px;
+        display: flex;
+        
+    }
+    .card-body1{
+        margin-top: -40px;
+        margin-left: 20px;
+    }
+    .card-title1{
+        font-size: 0.8rem;
+    }
+    .img-fluid{
+        height: 60px;
+        width: 60px;
+    }
+    .button1{
+        margin-left: 20px;
+        font-size: 0.6rem;
+        padding: 3px;
+        letter-spacing: 1px;
+
+    }
+    
+}

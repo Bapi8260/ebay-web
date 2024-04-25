@@ -1,0 +1,46 @@
+
+    @media screen and (max-width:407px){
+        html{
+            overflow-x: hidden;
+            
+        }
+        body{
+            overflow-x: hidden;
+        }
+        }
+@media screen and (max-width:430px){
+    html{
+        overflow-x: hidden;
+        
+    }
+    body{
+        overflow-x: hidden;
+    }
+    }
+@media screen and (max-width:780px){
+    html{
+        overflow-x: hidden;
+        
+    }
+    body{
+        overflow-x: hidden;
+    }
+    }
+    @media screen and (max-width:1080px){
+        html{
+            overflow-x: hidden;
+            
+        }
+        body{
+            overflow-x: hidden;
+        }
+        }
+        @media screen and (max-width:1440px){
+            html{
+                overflow-x: hidden;
+                
+            }
+            body{
+                overflow-x: hidden;
+            }
+            }

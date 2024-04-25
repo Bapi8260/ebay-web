@@ -1,0 +1,264 @@
+.part{
+    display: flex;
+    
+}
+.part11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:90vh;
+    width:50%;
+    
+}
+.part12{
+    height:90vh;
+    width:50%;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1 img{
+    margin-left: -30px;
+    margin-top: 30px;
+    height:250px;
+    width:300px;
+}
+.hook{
+    font-size: 0.9rem;
+    height:30px;
+    width:80px;
+}
+.modal-dialog{
+    width:300px;
+    
+}
+.image1{
+    
+
+}
+.content1{
+    
+    margin-top: 10px;
+    height:350px;
+    width:500px;
+    padding:0 20px;
+}
+.name{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+.des{
+    font-size: 1rem;
+    margin-top: -10px;
+}
+.line1{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 0;
+
+}
+.price{
+    width: 400px;
+    background-color:whitesmoke;
+    border: 1px solid black;
+    padding: 20px;
+}
+span{
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.price button{
+    background-color: rgb(242, 24, 24);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1rem;
+    align-items: center;
+    width:100%;
+    padding: 8px 0;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    height: 25px;
+    width: 90px;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+.pre{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+@media screen and (max-width:1024px){
+    
+}
+@media screen and (max-width:800px){
+    .part{
+        display: flex;
+        flex-direction: column;
+      }
+      .part12{
+        height:40vh;
+        width:90%;
+        border-left: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .part11{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:70vh;
+        width:90%;
+        margin-left: 20px;
+        position: relative;
+        padding:0 10px;
+        
+    }
+    .image1 img{
+        margin-left: 10px;
+        margin-top: 10px;
+        height:200px;
+        width:180px;
+        
+    }
+    .des{
+        font-size: 0.9rem;
+        margin-top: -5px;
+        width: 70%;
+        text-align: center;
+        margin-left: 55px;
+    }
+    .name{
+        font-size: 1rem;
+        font-weight: bold;
+        color:black;
+        text-align: center;
+    }
+    .pre{
+        font-size: 1rem;
+        font-weight: bold;
+        margin-left: 90px;
+        margin-top: -10px;
+    }
+      
+}
+@media screen and (max-width:430px){
+    .part{
+        display: flex;
+        flex-direction: column;
+      }
+      .part12{
+        height:40vh;
+        width:90%;
+        border-left: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .part11{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:70vh;
+        width:90%;
+        margin-left: 20px;
+        position: relative;
+        padding:0 10px;
+        
+    }
+    .image1 img{
+        margin-left: 10px;
+        margin-top: 10px;
+        height:200px;
+        width:180px;
+        
+    }
+    .des{
+        font-size: 0.9rem;
+        margin-top: -5px;
+        width: 70%;
+        text-align: center;
+        margin-left: 55px;
+    }
+    .name{
+        font-size: 1rem;
+        font-weight: bold;
+        color:black;
+        text-align: center;
+    }
+    .pre{
+        font-size: 1rem;
+        font-weight: bold;
+        margin-left: 90px;
+        margin-top: -10px;
+    }
+      
+  
+}
+@media screen and (max-width:330px){
+  .part{
+    display: flex;
+    flex-direction: column;
+  }
+  .part12{
+    height:40vh;
+    width:90%;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.part11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:70vh;
+    width:90%;
+    margin-left: 20px;
+    position: relative;
+    padding:0 10px;
+    
+}
+.image1 img{
+    margin-left: 10px;
+    margin-top: 10px;
+    height:200px;
+    width:180px;
+    
+}
+.des{
+    font-size: 0.9rem;
+    margin-top: -5px;
+    width: 70%;
+    text-align: center;
+    margin-left: 55px;
+}
+.name{
+    font-size: 1rem;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+.pre{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: -10px;
+}
+  
+}
